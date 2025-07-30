@@ -1,0 +1,154 @@
+#body {
+  max-width: 1020px;
+  height: auto;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(86, 117, 168);
+}
+.header {
+  display: inline-flex;
+  justify-content: space-between;
+  height: 50px;
+  border: 5px solid rgb(96, 153, 218);
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.header_P1 {
+  margin: auto;
+  padding: 0;
+  font-size: medium;
+  width: 252px;
+  text-align: center;
+  font-weight: bold;
+}
+.nav_link {
+  text-decoration: none;
+}
+a:link,
+:visited,
+:active {
+  color: gray;
+}
+.main-section {
+  display: flex;
+  margin-top: 20px;
+  height: 300px;
+  border: 5px solid rgb(96, 153, 218);
+  border-radius: 10px;
+}
+.main-div {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.profile-image {
+  border-radius: 50%;
+  width: 250px;
+  height: auto;
+}
+.main-header {
+  font-size: 50px;
+}
+.skills {
+  border: 5px solid rgb(96, 153, 218);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.skill-div1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+}
+.skill-div2 {
+  display: inline-flex;
+}
+.skill-para {
+  width: 250px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.projects {
+  height: 500px;
+  margin-top: 20px;
+  border: 5px solid rgb(96, 153, 218);
+  border-radius: 10px;
+}
+.project-heading {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 100px;
+  height: 100px;
+}
+.projects-div2 {
+  display: inline-flex;
+  margin: auto;
+  width: 1010px;
+  height: 300px;
+}
+.project-div {
+  width: 480px;
+  margin: auto;
+  text-align: center;
+  border: 3px solid rgb(96, 153, 218);
+  border-radius: 10px;
+}
+.project-para {
+  font-weight: bold;
+  .project-para-link {
+    text-decoration: none;
+    color: rgb(86, 117, 168);
+  }
+}
+.project-para-link:hover,
+:active,
+:visited {
+  color: rgb(86, 117, 168);
+  text-decoration: none;
+}
+.contact {
+  height: 250px;
+  margin-top: 20px;
+  border: 5px solid rgb(96, 153, 218);
+  border-radius: 10px;
+}
+.contact-heading {
+  font-size: 50px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+.contact-para {
+  margin-left: 25px;
+}
+.github-redirect-page {
+  color: rgb(86, 117, 168);
+  text-align: center;
+  font-weight: bold;
+}
+.github-redirect-page-text {
+  text-decoration: none;
+  color: rgb(86, 117, 168);
+}
+.github-redirect-page-text:hover,
+:active,
+:visited {
+  color: rgb(86, 117, 168);
+  text-decoration: "none";
+}
+.footer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 70px;
+  border: 5px solid rgb(96, 153, 218);
+  border-radius: 10px;
+  display: flex;
+}
+.footer-div {
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+.footer-para {
+  width: 50px;
+}

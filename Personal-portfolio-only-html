@@ -1,8 +1,101 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Personal Portfolio by Using Only Html</title>
-</head>
-<body>
-<h1>HEllo World</h1></body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body id="body">
+    <header class="header">
+      <p class="header_P1"><a href="/" class="nav_link">About</a></p>
+      <p class="header_P1"><a href="/" class="nav_link">Skill</a></p>
+      <p class="header_P1"><a href="/" class="nav_link">Project</a></p>
+      <p class="header_P1"><a href="/" class="nav_link">Contact</a></p>
+    </header>
+    <main class="main-section">
+      <div class="main-div">
+        <img
+          src="Untitled design33.png"
+          alt="proffile image"
+          class="profile-image"
+        />
+        <p>Profile Picture</p>
+      </div>
+      <div class="main-div">
+        <h1 class="main-header">ABOUT ME</h1>
+        <p class="main-para">Hello all My name is</p>
+        <p>Abhishek Kumar</p>
+        <p>I'm a Full Stack Web-Devloper (MERN)</p>
+      </div>
+    </main>
+    <div class="skills">
+      <div class="skill-div1"><p class="skill-para1">SKILL</p></div>
+      <div class="skill-div2">
+        <p class="skill-para">FrontEnd Devlopment</p>
+        <p class="skill-para">Backend Devlopment</p>
+        <p class="skill-para">UI/UX</p>
+        <p class="skill-para">Debuging</p>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="project-heading"><p>PROJECTS</p></div>
+      <div class="projects-div2">
+        <div class="project-div">
+          <p class="project-para">
+            <a
+              href="https://github.com/abhishek991-rag/PFM-Frontend"
+              class="project-para-link"
+              terget="_blank"
+              >Personal Finance Manager</a
+            >
+          </p>
+          <p>
+            I build a personal finance manager app that is track your finance.
+          </p>
+        </div>
+        <div class="project-div">
+          <p class="project-para">
+            <a
+              href="https://github.com/abhishek991-rag/Add-to-Cart-Task-Using-Routers"
+              class="project-para-link"
+              target="_blank"
+              >Add to Cart Using React.Js</a
+            >
+          </p>
+          <p>I build add to cart app using react.Js</p>
+        </div>
+      </div>
+      <div class="github-redirect-page">
+        <p>
+          <a
+            href="https://github.com/abhishek991-rag"
+            class="github-redirect-page-text"
+            target="_blank"
+            >More Projects...</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="contact">
+      <p class="contact-heading">Contact</p>
+      <address>
+        <p class="contact-para">Email : abhishek2244@gmail.com</p>
+        <p class="contact-para">Mobile : 1234567890</p>
+      </address>
+    </div>
+    <footer class="footer">
+      <div class="footer-div">
+        <p class="footer-para">
+          <i class="fa-brands fa-github"></i>
+        </p>
+        <p class="footer-para"><i class="fa-brands fa-linkedin-in"></i></p>
+        <p class="footer-para"><i class="fa-brands fa-x-twitter"></i></p>
+      </div>
+    </footer>
+  </body>
 </html>
